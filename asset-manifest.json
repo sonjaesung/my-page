@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-page/static/css/main.90201220.chunk.css",
+    "main.js": "/my-page/static/js/main.4c83a08a.chunk.js",
+    "main.js.map": "/my-page/static/js/main.4c83a08a.chunk.js.map",
+    "runtime-main.js": "/my-page/static/js/runtime-main.8758fed9.js",
+    "runtime-main.js.map": "/my-page/static/js/runtime-main.8758fed9.js.map",
+    "static/js/2.6760ec86.chunk.js": "/my-page/static/js/2.6760ec86.chunk.js",
+    "static/js/2.6760ec86.chunk.js.map": "/my-page/static/js/2.6760ec86.chunk.js.map",
+    "index.html": "/my-page/index.html",
+    "precache-manifest.dae283691b6a62599a40d329e2caed38.js": "/my-page/precache-manifest.dae283691b6a62599a40d329e2caed38.js",
+    "service-worker.js": "/my-page/service-worker.js",
+    "static/css/main.90201220.chunk.css.map": "/my-page/static/css/main.90201220.chunk.css.map",
+    "static/js/2.6760ec86.chunk.js.LICENSE.txt": "/my-page/static/js/2.6760ec86.chunk.js.LICENSE.txt",
+    "static/media/20190207_183148.jpg": "/my-page/static/media/20190207_183148.d3304486.jpg",
+    "static/media/Main.css": "/my-page/static/media/adiantum.64a7c1f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8758fed9.js",
+    "static/js/2.6760ec86.chunk.js",
+    "static/css/main.90201220.chunk.css",
+    "static/js/main.4c83a08a.chunk.js"
+  ]
+}
