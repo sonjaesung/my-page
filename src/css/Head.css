@@ -1,0 +1,35 @@
+.headTitle {
+  float: left;
+  font-size: 30px;
+  line-height: 69px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.innerHead {
+  display: block;
+}
+
+.navUl {
+  margin: 0;
+  float: right;
+}
+
+.navLi {
+  position: relative;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: white;
+  line-height: 69px;
+}
+
+.liLink {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  line-height: 69px;
+}
