@@ -7,73 +7,168 @@ class History extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <div id="history">
-          {' '}
-          <h2>2019</h2>{' '}
-          <div className="list_right">
-            {' '}
-            <span />{' '}
-            <div>
-              {' '}
-              <ul>
-                {' '}
-                <li>
-                  {' '}
-                  <dl>
-                    {' '}
-                    <dt>11.24</dt> <dd>on sunday 티스토리 블로그 개설</dd>{' '}
-                  </dl>{' '}
-                  <dl>
-                    {' '}
-                    <dt>11.24</dt> <dd>첫 포스팅 시작함</dd>{' '}
-                  </dl>{' '}
-                </li>{' '}
-                <li>
-                  {' '}
-                  <dl>
-                    {' '}
-                    <dt>11.25</dt> <dd>on sunday 바람개비마을 포스팅</dd>{' '}
-                  </dl>{' '}
-                  <dl>
-                    {' '}
-                    <dt>11.26</dt> <dd>서촌 준수방키친 포스팅</dd>{' '}
-                  </dl>{' '}
-                </li>{' '}
-              </ul>{' '}
-            </div>{' '}
-          </div>{' '}
-          <h2>2019</h2>{' '}
-          <div className="list_left">
-            {' '}
-            <div>
-              {' '}
-              <ul>
-                {' '}
-                <li>
-                  {' '}
-                  <dl>
-                    {' '}
-                    <dd>on sunday 티스토리 블로그 개설</dd> <dt>11.24</dt>{' '}
-                  </dl>{' '}
-                  <dl>
-                    {' '}
-                    <dd>첫 포스팅 시작함</dd> <dt>11.24</dt>{' '}
-                  </dl>{' '}
-                </li>{' '}
-                <li>
-                  {' '}
-                  <dl>
-                    {' '}
-                    <dd>on sunday 바람개비마을 포스팅</dd> <dt>11.25</dt>{' '}
-                  </dl>{' '}
-                  <dl>
-                    {' '}
-                    <dd>서촌 준수방키친 포스팅</dd> <dt>11.26</dt>{' '}
-                  </dl>{' '}
-                </li>{' '}
-              </ul>{' '}
-            </div>{' '}
-            <span />{' '}
+        <div className="historyBody">
+          <div className="history" id="history">
+            <div className="yearDiv">
+              <span>2020</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>07.20</strong>
+                      <br />
+                      <span>Eun Yul My-Page 작업</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>Eun Yul My-Page 작업</strong>
+                      <br />
+                      <span>
+                        React-Native-Web 을 이요하여 웹과 앱 모두에서 확인해 볼
+                        수 있는 프로젝트를 제작 중입니다.
+                      </span>
+                      <br />
+                      <span>
+                        홈 화면, 자기소개서, 연혁, 포트폴리오, 취미/특기 등을
+                        추가 예정입니다.
+                      </span>
+                      <br />
+                      <span>
+                        서버는 사용하지않고 Front 페이지만 사용합니다.
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>07.17</strong>
+                      <br />
+                      <span>학생 출석체크 작업</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>학생 출석체크 작업</strong>
+                      <br />
+                      <span>
+                        학교 e-수업 페이지의 학생들 출석체크를 위한
+                        프로그램입니다.
+                      </span>
+                      <br />
+                      <span>
+                        페이지 전체를 복사 붙여넣기를 한 이후 엑셀로 만들어놓은
+                        학생들 출석부를 이용하여 출석체크를 진행합니다.
+                      </span>
+                      <br />
+                      <span>
+                        필자의 git 에 배포하여 한 고등학교에서 사용중입니다.
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>06.01</strong>
+                      <br />
+                      <span>React Weather-Clock-Lotto 작업</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>React Weather-Clock-Lotto 작업</strong>
+                      <br />
+                      <span>
+                        포트폴리오로 작성해본 React 반응형 웹페이지입니다.
+                      </span>
+                      <br />
+                      <span>
+                        서버를 이용하여 로그인 할 수 있습니다. 시계기능, 오늘의
+                        날씨 확인 기능, 영어 문장 작성/저장 기능, 로또 회차에
+                        의한 당첨번호 조회 기능이 있습니다.
+                      </span>
+                      <br />
+                      <span>
+                        로또 번호 조회 api 가 현재는 작동하지 않습니다.
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>04.30</strong>
+                      <br />
+                      <span>엠서클 퇴사</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>엠서클 퇴사</strong>
+                      <br />
+                      <span>회사와의 합의에 의한 퇴사.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>02.03</strong>
+                      <br />
+                      <span>엠서클 입사</span>
+                    </div>
+                    <div className="detailContent" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2019</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>12.31</strong>
+                      <br />
+                      <span>(주)자버 퇴사</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>(주)자버 퇴사</strong>
+                      <br />
+                      <span>회사의 이사로 인한 퇴사.</span>
+                      <br />
+                      <span>성수에서 공덕으로 이사하였습니다.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>10.10</strong>
+                      <br />
+                      <span>(주)자버 입사</span>
+                    </div>
+                    <div className="detailContent" />
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>06.24</strong>
+                      <br />
+                      <span>(주)에프앤아이 퇴사</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>(주)에프앤아이 퇴사</strong>
+                      <br />
+                      <span>개인적인 사정에 의한 퇴사.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>04.24</strong>
+                      <br />
+                      <span>자살예방 프로젝트</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>자살예방 프로젝트</strong>
+                      <br />
+                      <span>
+                        자살예방 프로젝트 강남 세브란스병원 임상실험 진행.
+                      </span>
+                      <br />
+                      <span>임상실험 현장 지원.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </View>
@@ -90,6 +185,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f1f1f1',
     paddingLeft: '180px',
     paddingRight: '180px',
+    overflow: 'scroll',
   },
 });
 
