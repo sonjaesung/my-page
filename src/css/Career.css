@@ -1,0 +1,37 @@
+.careerDiv {
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+  margin-top: 10px;
+  padding: 55px 100px 100px;
+}
+
+.careerDiv .careerTitle {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.careerDiv .careerBody {
+  margin-top: 15px;
+  border-top: 2px solid #666;
+  background-color: #fff;
+}
+
+.careerDiv .careerBody .careerTable {
+  width: 100%;
+  border-left: 1px solid #eaeaea;
+}
+
+.careerDiv .careerTable thead tr th {
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  background-color: #f1f1f1;
+}
+
+.careerDiv .careerTable tbody tr td {
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 15px 5px 17px 5px;
+}

@@ -31,6 +31,11 @@ class Head extends Component {
                   포트폴리오
                 </Link>
               </li>
+              <li className="navLi">
+                <Link to="/career" className="liLink">
+                  경력기술서
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
