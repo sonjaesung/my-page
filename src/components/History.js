@@ -169,6 +169,208 @@ class History extends Component {
                 </ul>
               </div>
             </div>
+            <div className="yearDiv">
+              <span>2017</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>08.24</strong>
+                      <br />
+                      <span>Web 개발 시작</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>Web 개발 시작</strong>
+                      <br />
+                      <span>회사의 권유로 Web 개발을 시작하였습니다.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>04.24</strong>
+                      <br />
+                      <span>(주)에프앤아이 입사</span>
+                    </div>
+                    <div className="detailContent" />
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>01.24</strong>
+                      <br />
+                      <span>리오리치 프로젝트 진행</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>리오리치 프로젝트 진행</strong>
+                      <br />
+                      <span>
+                        학교에서 연결해준 외부 프로젝트 리오리치 진행.
+                      </span>
+                      <br />
+                      <span>
+                        Unity 를 이용한 미연시 게임 중 퀘스트 부분 담당.
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>02.28</strong>
+                      <br />
+                      <span>한국IT직업전문학교 졸업</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2016</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>11.10</strong>
+                      <br />
+                      <span>졸업작품 G-Star 출시</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>졸업작품 G-Star 출시</strong>
+                      <br />
+                      <span>Team Anxiety 졸업작품 G-Star 출시.</span>
+                      <br />
+                      <span>
+                        Unity 와 오큘러스를 이용한 3D 공포게임 이였습니다.
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>06.10</strong>
+                      <br />
+                      <span>Team Anxiety 합류</span>
+                    </div>
+                    <div className="detailContent" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2015</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>03.02</strong>
+                      <br />
+                      <span>한국IT직업전문학교 복학</span>
+                    </div>
+                    <div className="detailContent" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2014</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>12.18</strong>
+                      <br />
+                      <span>군복무 전역</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>군복무 전역</strong>
+                      <br />
+                      <span>육군 병장 만기 전역입니다.</span>
+                      <br />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2013</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>03.15</strong>
+                      <br />
+                      <span>군복무 입대</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2012</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>03.02</strong>
+                      <br />
+                      <span>한국IT직업전문학교 입학</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>한국IT직업전문학교 입학</strong>
+                      <br />
+                      <span>서울 소재, 게임프로그래밍학과.</span>
+                      <br />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2011</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>02.20</strong>
+                      <br />
+                      <span>방산고등학교 졸업</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="yearDiv">
+              <span>2008</span>
+            </div>
+            <div className="listRight">
+              <div className="listRightDiv">
+                <ul>
+                  <li>
+                    <div className="simpleContent">
+                      <strong>02.20</strong>
+                      <br />
+                      <span>방산고등학교 입학</span>
+                    </div>
+                    <div className="detailContent">
+                      <strong>한국IT직업전문학교 입학</strong>
+                      <br />
+                      <span>서울 소재, 이과.</span>
+                      <br />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </View>

@@ -1,0 +1,58 @@
+.portfoioDiv {
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+  margin-top: 10px;
+  padding: 55px 100px 100px;
+}
+
+.portfoioDiv .simpleData .portfolioTitle {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.portfoioDiv .simpleData .imgDiv {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  padding-top: 42px;
+  display: flex;
+  flex-direction: row;
+}
+
+.portfoioDiv .simpleData .imgDiv .photo {
+  display: table-cell;
+  padding-right: 10px;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.portfoioDiv .simpleData .imgDiv .photo .photoImg {
+  width: 100%;
+  height: 250px;
+}
+
+.portfoioDiv .portfolio {
+  margin-top: 50px;
+}
+
+.portfoioDiv .portfolio .portfolioTitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.portfoioDiv .portfolio .portfolioBody {
+  width: 100%;
+  border-top: 3px solid black;
+  margin-top: 10px;
+  padding-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.portfoioDiv .portfolio .portfolioBody .portfolioLink {
+  font-size: 20px;
+}
+
+.portfoioDiv .portfolio .portfolioBody .portfolioLink a {
+  padding-left: 10px;
+}

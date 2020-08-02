@@ -8,6 +8,7 @@ import Foot from './components/Foot';
 import Main from './components/Main';
 import AboutMe from './components/AboutMe';
 import History from './components/History';
+import Portfolio from './components/Portfolio';
 
 class App extends Component {
   render() {
@@ -16,8 +17,9 @@ class App extends Component {
         <View style={styles.container}>
           <Head />
           <Route path="/" component={Main} exact={true} />
-          <Route path="/about-me" component={AboutMe} exact={true} />
           <Route path="/history" component={History} exact={true} />
+          <Route path="/about-me" component={AboutMe} exact={true} />
+          <Route path="/portfolio" component={Portfolio} exact={true} />
         </View>
       </HashRouter>
     );

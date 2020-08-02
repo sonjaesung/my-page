@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <div>
+        <div className="mainDiv">
           <div className="leftBody">
             <div className="bodyTop">
               <span className="btTitle">Eun Yul</span>

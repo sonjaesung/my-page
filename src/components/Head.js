@@ -28,7 +28,7 @@ class Head extends Component {
               </li>
               <li className="navLi">
                 <Link to="/portfolio" className="liLink">
-                  포폴
+                  포트폴리오
                 </Link>
               </li>
             </ul>
