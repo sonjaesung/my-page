@@ -35,3 +35,6 @@
   border-bottom: 1px solid #eaeaea;
   padding: 15px 5px 17px 5px;
 }
+.careerDiv .careerTable tbody tr td .reson {
+  color: rgb(65, 154, 236);
+}
