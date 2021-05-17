@@ -47,6 +47,7 @@
   padding-top: 42px;
   padding-left: 20px;
   padding-right: 20px;
+  white-space: pre-line;
 }
 
 .portfoioDiv .portfolio .portfolioBody .portfolioLink {

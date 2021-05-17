@@ -15,6 +15,13 @@ class History extends Component {
             <div className="listRight">
               <div className="listRightDiv">
                 <ul>
+                <li>
+                    <div className="simpleContent">
+                      <strong>09.01</strong>
+                      <br />
+                      <span>딥노이드 입사</span>
+                    </div>
+                  </li>
                   <li>
                     <div className="simpleContent">
                       <strong>07.20</strong>
@@ -25,7 +32,7 @@ class History extends Component {
                       <strong>Eun Yul My-Page 작업</strong>
                       <br />
                       <span>
-                        React-Native-Web 을 이요하여 웹과 앱 모두에서 확인해 볼
+                        React-Native-Web 을 이용하여 웹과 앱 모두에서 확인해 볼
                         수 있는 프로젝트를 제작 중입니다.
                       </span>
                       <br />

@@ -74,6 +74,7 @@
 .aboutMeDiv .profile .personalInfo .myData .strongPoint .strongPointList {
   padding-left: 80px;
   position: relative;
+  white-space: pre-wrap;
 }
 
 .aboutMeDiv .profile .personalInfo .dashboard {
@@ -158,4 +159,5 @@
   padding-top: 42px;
   padding-left: 20px;
   padding-right: 20px;
+  white-space: pre-line;
 }

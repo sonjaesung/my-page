@@ -38,3 +38,7 @@
 .careerDiv .careerTable tbody tr td .reson {
   color: rgb(65, 154, 236);
 }
+
+.carrerContent {
+  white-space: pre-line;
+}
